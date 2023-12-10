@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0002]: add increment">
+    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0002]: config eslint prettier">
       <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
@@ -153,7 +153,7 @@
       <workItem from="1702223885649" duration="4257000" />
       <workItem from="1702238075978" duration="224000" />
       <workItem from="1702238310606" duration="52000" />
-      <workItem from="1702238369528" duration="435000" />
+      <workItem from="1702238369528" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702233198233</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat[sc-0002]: config eslint prettier">
+      <created>1702239292145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702239292145</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +237,7 @@
     <MESSAGE value="feat[sc-0001]: change yaml" />
     <MESSAGE value="feat[sc-0001]: change ci on main" />
     <MESSAGE value="feat[sc-0002]: add increment" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0002]: add increment" />
+    <MESSAGE value="feat[sc-0002]: config eslint prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0002]: config eslint prettier" />
   </component>
 </project>

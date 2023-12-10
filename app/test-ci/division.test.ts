@@ -1,5 +1,7 @@
 import { describe, expect, it } from "@jest/globals"
-import { division } from "test-ci"
+
+// eslint-disable-next-line no-restricted-imports
+import { division } from "./test-ci"
 
 describe("division function", () => {
   it("should correctly divide two numbers", () => {
