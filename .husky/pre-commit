@@ -20,5 +20,5 @@ separator=$'\n---\n'
 echo "$separator"
 yarn run lint
 echo "$separator"
-yarn run format
+yarn run format:fix
 echo "$separator"
