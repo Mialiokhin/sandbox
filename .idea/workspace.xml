@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: add basic actions">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: change yaml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702223883860</updated>
-      <workItem from="1702223885649" duration="3061000" />
+      <workItem from="1702223885649" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702225843770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat[sc-0001]: change yaml">
+      <created>1702227227743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702227227743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +179,7 @@
     <MESSAGE value="feat init" />
     <MESSAGE value="feat[sc-0001]: add husky" />
     <MESSAGE value="feat[sc-0001]: add basic actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: add basic actions" />
+    <MESSAGE value="feat[sc-0001]: change yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: change yaml" />
   </component>
 </project>
