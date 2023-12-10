@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: change ci on main">
-      <change afterPath="$PROJECT_DIR$/app/test-ci/division.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test-ci/test-ci.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CI.yml" afterDir="false" />
+    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0002]: config eslint prettier">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test-ci/division.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/test-ci/division.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test-ci/test-ci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/test-ci/test-ci.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -26,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2ZMF8hh6uAk5NUd9a2f3IKPQvPD" />
   <component name="ProjectLevelVcsManager">
@@ -53,6 +63,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\GIT\\sandbox\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\GIT\\sandbox\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -70,7 +81,7 @@
       <recent name="D:\GIT\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.lint">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.format:fix" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.lint" />
-        <item itemvalue="npm.format:fix" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +151,9 @@
       <option name="presentableId" value="Default" />
       <updated>1702223883860</updated>
       <workItem from="1702223885649" duration="4257000" />
+      <workItem from="1702238075978" duration="224000" />
+      <workItem from="1702238310606" duration="52000" />
+      <workItem from="1702238369528" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -183,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702227525254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat[sc-0002]: add increment">
+      <created>1702233198233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702233198233</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat[sc-0002]: config eslint prettier">
+      <created>1702239292145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702239292145</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +236,8 @@
     <MESSAGE value="feat[sc-0001]: add basic actions" />
     <MESSAGE value="feat[sc-0001]: change yaml" />
     <MESSAGE value="feat[sc-0001]: change ci on main" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: change ci on main" />
+    <MESSAGE value="feat[sc-0002]: add increment" />
+    <MESSAGE value="feat[sc-0002]: config eslint prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0002]: config eslint prettier" />
   </component>
 </project>
