@@ -1,10 +1,16 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useState } from "react";
 
 export default function Home() {
+  const [state, setState] = useState(0);
+  const increment = () => setState((prev) => prev + 1);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <h1>value: {state}</h1>
+        <button onClick={increment}>increment</button>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
