@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: add husky" />
+    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: add basic actions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\GIT\\sandbox\\node_modules\\prettier",
     "ts.external.directory.path": "D:\\GIT\\sandbox\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,7 +64,7 @@
       <recent name="D:\GIT\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prepare">
+  <component name="RunManager" selected="npm.format:fix">
     <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -103,9 +107,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.format:fix" />
         <item itemvalue="npm.prepare" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.format:fix" />
         <item itemvalue="npm.format" />
       </list>
     </recent_temporary>
@@ -118,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702223883860</updated>
-      <workItem from="1702223885649" duration="1597000" />
+      <workItem from="1702223885649" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -141,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702225465978</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat[sc-0001]: add basic actions">
+      <created>1702225843770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702225843770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +174,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat init" />
     <MESSAGE value="feat[sc-0001]: add husky" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: add husky" />
+    <MESSAGE value="feat[sc-0001]: add basic actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: add basic actions" />
   </component>
 </project>
