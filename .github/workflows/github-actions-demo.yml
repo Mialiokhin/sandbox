@@ -30,3 +30,6 @@ jobs:
 
       - name: check format
         run: yarn format
+
+      - name: run tests
+        run: yarn test

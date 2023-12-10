@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: change yaml" />
+    <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0001]: change ci on main">
+      <change afterPath="$PROJECT_DIR$/app/test-ci/division.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/test-ci/test-ci.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +68,7 @@
       <recent name="D:\GIT\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.format:fix">
+  <component name="RunManager" selected="npm.test">
     <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,12 +109,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.format:fix" />
-        <item itemvalue="npm.prepare" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
+        <item itemvalue="npm.format:fix" />
         <item itemvalue="npm.format" />
+        <item itemvalue="npm.prepare" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702223883860</updated>
-      <workItem from="1702223885649" duration="3389000" />
+      <workItem from="1702223885649" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -156,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702227227743</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat[sc-0001]: change ci on main">
+      <created>1702227525254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702227525254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +205,7 @@
     <MESSAGE value="feat[sc-0001]: add husky" />
     <MESSAGE value="feat[sc-0001]: add basic actions" />
     <MESSAGE value="feat[sc-0001]: change yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: change yaml" />
+    <MESSAGE value="feat[sc-0001]: change ci on main" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0001]: change ci on main" />
   </component>
 </project>
