@@ -29,7 +29,14 @@ module.exports = {
       version: "detect",
     },
   },
-  ignorePatterns: ["src/typings/types/generated.ts", "*.test.js", ".eslintrc.js", "next.config.js", "jest.config.js"],
+  ignorePatterns: [
+    "src/typings/types/generated.ts",
+    "*.test.js",
+    ".eslintrc.js",
+    "next.config.js",
+    "jest.config.js",
+    "postcss.config.js",
+  ],
   rules: {
     curly: ["error", "all"],
     "prettier/prettier": "error",
