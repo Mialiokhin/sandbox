@@ -1,20 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e13aad9-33f0-4894-b2ed-f6d37fa517ec" name="Changes" comment="feat[sc-0002]: config eslint prettier">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(with-auth-layout)/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(with-auth-layout)/register/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(with-auth-layout)/template.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/forgot-password/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_constants/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_lib/format-date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/first/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/second/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@notifications/archived/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@notifications/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@revenue/default.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@revenue/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@users/default.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/@users/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/default.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/complex-dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contacts/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/line-chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/docs/[[...slug]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/(.)f2/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/f2/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/f3/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/f4/(..)f3/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/f4/(...)contacts/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/f4/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/f1/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/my-projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/order-product/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/[productId]/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/[productId]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/[productId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/[productId]/reviews/[reviewId]/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/[productId]/reviews/[reviewId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test-ci/division.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/test-ci/division.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test-ci/test-ci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/test-ci/test-ci.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test-ci/division.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_test-ci/division.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test-ci/test-ci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_test-ci/test-ci.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -46,28 +89,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GIT/sandbox&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\GIT\\sandbox\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\GIT\\sandbox\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/f1/f4/(...)contacts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="H:\ЛЁША\GitHub\sandbox\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -78,10 +113,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GIT\sandbox" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\f4\(...)contacts" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\(..)f3" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\f4" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\(.)f2\f3" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\f2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1\f4" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\f1" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\complex-dashboard" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\products" />
+      <recent name="H:\ЛЁША\GitHub\sandbox\app\(auth)\(with-auth-layout)" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -97,6 +143,16 @@
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -122,23 +178,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format:fix" />
-        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.format" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +200,13 @@
       <workItem from="1702238075978" duration="224000" />
       <workItem from="1702238310606" duration="52000" />
       <workItem from="1702238369528" duration="924000" />
+      <workItem from="1703681617336" duration="3519000" />
+      <workItem from="1704199763140" duration="8710000" />
+      <workItem from="1704226043403" duration="2801000" />
+      <workItem from="1704258364377" duration="5639000" />
+      <workItem from="1704265991395" duration="4000" />
+      <workItem from="1704266006937" duration="6469000" />
+      <workItem from="1704274422449" duration="8747000" />
     </task>
     <task id="LOCAL-00001" summary="feat init">
       <created>1702225210490</created>
@@ -239,5 +292,9 @@
     <MESSAGE value="feat[sc-0002]: add increment" />
     <MESSAGE value="feat[sc-0002]: config eslint prettier" />
     <option name="LAST_COMMIT_MESSAGE" value="feat[sc-0002]: config eslint prettier" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
